@@ -48,6 +48,7 @@ namespace Resolution_Grabber.src
                     task.run();
                 } else if(index == task.getTick())
                 {
+                    task.run();
                     task.setTick(task.getTick()+index);
                 }
                 index++;
