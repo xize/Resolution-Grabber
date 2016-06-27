@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="RepeatingTask.cs" />
+    <Compile Include="src\Scheduler.cs" />
+    <Compile Include="src\SchedulerTask.cs" />
     <Compile Include="src\Window.cs">
       <SubType>Form</SubType>
     </Compile>

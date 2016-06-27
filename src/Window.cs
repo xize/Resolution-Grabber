@@ -23,10 +23,14 @@ namespace Resolution_Grabber.src
             {
                 textBox1.Enabled = false;
                 button1.Text = "stop";
+
+                Scheduler.getScheduler().startScheduler();
+
             } else
             {
                 textBox1.Enabled = true;
                 button1.Text = "check resolution";
+                Scheduler.getScheduler().stopScheduler();
             }
         }
 
