@@ -34,10 +34,10 @@ namespace Resolution_Grabber.src
 
         private async void doSchedule()
         {
-            await Task.Run(() => thick());
+            await Task.Run(() => tick());
         }
 
-        private long thick()
+        private long tick()
         {
             long index = 0;
 

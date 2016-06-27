@@ -9,7 +9,7 @@ namespace Resolution_Grabber.src
     abstract class SchedulerTask
     {
 
-        private long thick = 0;
+        private long tick = 0;
 
         public abstract void run();
 
@@ -17,14 +17,14 @@ namespace Resolution_Grabber.src
 
         public abstract Boolean isRepeating();
 
-        public void setTick(long thick)
+        public void setTick(long tick)
         {
-            this.thick = thick;
+            this.tick = tick;
         }
 
         public long getTick()
         {
-            return thick;
+            return tick;
         }
     }
 }
