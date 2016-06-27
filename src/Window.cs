@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Resolution_Grabber.src
 {
-    public partial class Form1 : Form
+    public partial class Window : Form
     {
-        public Form1()
+        public Window()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace Resolution_Grabber.src
 {
-    partial class Form1
+    partial class Window
     {
         /// <summary>
         /// Required designer variable.
