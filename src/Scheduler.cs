@@ -37,9 +37,9 @@ namespace Resolution_Grabber.src
             await Task.Run(() => thick());
         }
 
-        private int thick()
+        private long thick()
         {
-            int index = 0;
+            long index = 0;
 
             while (task != null)
             {
