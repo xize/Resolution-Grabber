@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Resolution_Grabber
+namespace Resolution_Grabber.src
 {
     public partial class Form1 : Form
     {

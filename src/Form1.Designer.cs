@@ -1,4 +1,4 @@
-﻿namespace Resolution_Grabber
+﻿namespace Resolution_Grabber.src
 {
     partial class Form1
     {
